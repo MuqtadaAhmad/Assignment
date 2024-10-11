@@ -32,11 +32,11 @@ namespace my_home_Work
             get { return mark; }
             set { mark = value; }
         }
-
-       public class StudentPrint
+    }
+             public class StudentPrint
         {
          
-            public   StudentPrint(string oName, string oAddress, double oMark)
+            public  void  studentPrintinfo(string oName, string oAddress, double oMark)
             {
                 Student stu = new Student();
                 Console.WriteLine();
@@ -53,13 +53,14 @@ namespace my_home_Work
             
 
         }
-    }
+    
     
     internal class Program
     {
         static void Main(string[] args)
         {
-            StudentPrint st = new StudentPrint("ali","4435",64);
+            StudentPrint st = new StudentPrint();
+            st.studentPrintinfo("Muqtada","888768",86.56);
             Console.ReadLine ();
 
         }
