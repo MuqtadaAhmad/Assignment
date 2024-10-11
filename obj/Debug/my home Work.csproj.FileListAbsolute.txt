@@ -1,0 +1,7 @@
+C:\Users\LENOVO\source\repos\my home Work\bin\Debug\my home Work.exe.config
+C:\Users\LENOVO\source\repos\my home Work\bin\Debug\my home Work.exe
+C:\Users\LENOVO\source\repos\my home Work\bin\Debug\my home Work.pdb
+C:\Users\LENOVO\source\repos\my home Work\obj\Debug\my home Work.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\my home Work\obj\Debug\my home Work.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\my home Work\obj\Debug\my home Work.exe
+C:\Users\LENOVO\source\repos\my home Work\obj\Debug\my home Work.pdb
