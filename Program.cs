@@ -12,10 +12,7 @@ namespace my_home_Work
         private string name;
         private string address;
         private double mark;
-        public Student()
-        { 
-        
-        }
+     
 
         public string Name
         {
@@ -33,35 +30,22 @@ namespace my_home_Work
             set { mark = value; }
         }
     }
-             public class StudentPrint
-        {
-         
-            public  void  studentPrintinfo(string oName, string oAddress, double oMark)
-            {
-                Student stu = new Student();
-                Console.WriteLine();
-                stu.Name = oName;
-                Console.WriteLine($"the student's name is {oName}");
-                stu.Address = oAddress;
-                Console.WriteLine($"the stodent's addresso {oAddress} ");
-                stu.Mark = oMark;
-                Console.WriteLine($"the stodent's mark is {oMark}");
-
-
-
-            }
-            
-
-        }
+      public Student(string oName,string oAddress,double oMark )
+  {
+      name = oName;
+      address = oAddress;
+      mark = oMark;
+  }     
     
     
     internal class Program
     {
         static void Main(string[] args)
         {
-            StudentPrint st = new StudentPrint();
-            st.studentPrintinfo("Muqtada","888768",86.56);
-            Console.ReadLine ();
+              Student st = new Student("Muaqtda","4747890",86.56);
+
+  Console.WriteLine($"my name is {st.Name} amd my address is {st.Address} amd my mark is {st.Mark}");
+  Console.ReadLine ();
 
         }
     }
